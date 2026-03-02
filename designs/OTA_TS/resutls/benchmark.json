@@ -1,0 +1,13 @@
+{   
+    "trial": 2,
+    "Pkg": {
+        "param": ["ckt_param.spice"],
+        "const": ["layout_const.json"],
+        "pre-sim": ["gain_pre.txt", "phase_pre.txt", "inoise_pre.txt", "transient_pre.txt"],
+        "layout": ["TELESCOPIC_OTA_0.gds", "TELESCOPIC_OTA.lef"],
+        "extract": ["TELESCOPIC_OTA_0_lvs.spice","TELESCOPIC_OTA_0_pex.spice"],
+        "drc": ["drc_report.xml"],
+        "lvs": ["comp.out"],
+        "post-sim": ["gain_post.txt", "phase_post.txt", "inoise_post.txt", "transient_post.txt"]
+    }
+}
