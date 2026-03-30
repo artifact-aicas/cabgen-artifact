@@ -1,0 +1,60 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell DCL_PMOS_S_13688038_X6_Y1_1774869037 in circuit FIVE_TRANSISTOR_OTA_0 (0)(1 instance)
+Flattening unmatched subcell SCM_NMOS_16984956_X6_Y1_1774869040 in circuit FIVE_TRANSISTOR_OTA_0 (0)(1 instance)
+Flattening unmatched subcell NMOS_4T_73049722_X9_Y1_1774869038 in circuit FIVE_TRANSISTOR_OTA_0 (0)(2 instances)
+Flattening unmatched subcell PMOS_S_86315193_X6_Y1_1774869039 in circuit FIVE_TRANSISTOR_OTA_0 (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: FIVE_TRANSISTOR_OTA_0           |Circuit 2: five_transistor_ota             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (24->2)            |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (60->4)            |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: FIVE_TRANSISTOR_OTA_0           |Circuit 2: five_transistor_ota             
+-------------------------------------------|-------------------------------------------
+VIP                                        |VIP                                        
+VIN                                        |VIN                                        
+VOUT                                       |VOUT                                       
+VSS                                        |VSS                                        
+IB                                         |IB                                         
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes FIVE_TRANSISTOR_OTA_0 and five_transistor_ota are equivalent.
+
+Final result: Circuits match uniquely.
+.
