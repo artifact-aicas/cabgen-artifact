@@ -1,13 +1,352 @@
-{   
-    "trial": 2,
-    "Pkg": {
-        "param": ["ckt_param.spice"],
-        "const": ["layout_const.json"],
-        "pre-sim": ["gain_pre.txt", "phase_pre.txt", "inoise_pre.txt", "transient_pre.txt"],
-        "layout": ["TELESCOPIC_OTA_0.gds", "TELESCOPIC_OTA.lef"],
-        "extract": ["TELESCOPIC_OTA_0_lvs.spice","TELESCOPIC_OTA_0_pex.spice"],
-        "drc": ["drc_report.xml"],
-        "lvs": ["comp.out"],
-        "post-sim": ["gain_post.txt", "phase_post.txt", "inoise_post.txt", "transient_post.txt"]
+{
+    "Pkg0": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg1": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg2": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg3": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg4": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg5": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg6": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg7": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg8": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
+    },
+    "Pkg9": {
+        "param": [
+            "param.spice"
+        ],
+        "const": [
+            "constraints.json"
+        ],
+        "pre-sim": [
+            "gain_pre.txt",
+            "phase_pre.txt",
+            "inoise_pre.txt",
+            "transient_out_pre.txt",
+            "THD_pre.txt"
+        ],
+        "layout": [
+            "TELESCOPIC_OTA_0.gds"
+        ],
+        "extract": [
+            "TELESCOPIC_OTA_0_lvs.spice",
+            "TELESCOPIC_OTA_0_pex.spice"
+        ],
+        "drc": [
+            "drc_report.xml"
+        ],
+        "lvs": [
+            "comp.out"
+        ],
+        "post-sim": [
+            "gain_post.txt",
+            "phase_post.txt",
+            "inoise_post.txt",
+            "transient_out_post.txt",
+            "THD_post.txt"
+        ]
     }
 }
