@@ -1,0 +1,63 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell PMOS_4T_48128194_X4_Y1_1774869455 in circuit TELESCOPIC_OTA_0 (0)(2 instances)
+Flattening unmatched subcell NMOS_4T_31167546_X10_Y1_1774869453 in circuit TELESCOPIC_OTA_0 (0)(2 instances)
+Flattening unmatched subcell SCM_NMOS_90644832_X6_Y1_1774869457 in circuit TELESCOPIC_OTA_0 (0)(1 instance)
+Flattening unmatched subcell NMOS_4T_47642139_X3_Y1_1774869454 in circuit TELESCOPIC_OTA_0 (0)(2 instances)
+Flattening unmatched subcell PMOS_S_59459431_X8_Y1_1774869456 in circuit TELESCOPIC_OTA_0 (0)(2 instances)
+
+Subcircuit summary:
+Circuit 1: TELESCOPIC_OTA_0                |Circuit 2: telescopic_ota                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (48->4)            |sky130_fd_pr__pfet_01v8 (4)                
+sky130_fd_pr__nfet_01v8 (76->6)            |sky130_fd_pr__nfet_01v8 (6)                
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: TELESCOPIC_OTA_0                |Circuit 2: telescopic_ota                  
+-------------------------------------------|-------------------------------------------
+VIP                                        |VIP                                        
+VIN                                        |VIN                                        
+IB                                         |IB                                         
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+VCP                                        |VCP                                        
+VOUT                                       |VOUT                                       
+VCN                                        |VCN                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes TELESCOPIC_OTA_0 and telescopic_ota are equivalent.
+
+Final result: Circuits match uniquely.
+.
